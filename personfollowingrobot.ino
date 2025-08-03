@@ -3,7 +3,7 @@
 ir takes input
 if high , motor forward
 if low , no motor movement
- if ir high , us detects person at a specified distance and motor stops
+ if ir high , us detects person at a specified distance and motor stops   // us=ultrasonic sensor
 
 2)if person moves more forward
 ir takes low as input
