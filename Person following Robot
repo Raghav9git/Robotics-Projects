@@ -1,24 +1,3 @@
-//A robot that follows a person where it goes
-/* 1) for starting motion of robot
-ir takes input
-if high , motor forward
-if low , no motor movement
- if ir high , us detects person at a specified distance and motor stops   // us=ultrasonic sensor
-
-2)if person moves more forward
-ir takes low as input
-motors move forward
-us detects person at a specified distance and motor stops
-if again person moves more forward , same procedure
-
-3) if person takes right and moves forward being at specified ditsance from robot
-us takes input and moves motors to right + forward 
-
-4) if person takes left and moves forward being at specified ditsance from robot
-us takes input and moves motors to left + forward
-*/
-
-
 #include <AFMotor.h>
 #include <Servo.h>
 #include <NewPing.h>
